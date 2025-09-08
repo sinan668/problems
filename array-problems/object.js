@@ -9,7 +9,7 @@ for (i = 0 ; i < arr.length ; i++){
 
 let arry = [ 0,1, 2, 3, 4, 5];
 
-console.log(arry.length);  //6
+console.log(arry.length); //6
 
 console.log(arry[0]); //0
 console.log(arry[1]); //1
