@@ -39,3 +39,33 @@ const ghi = (a,b)=>{
 res = ghi(20,40)
 
 console.log(res)
+
+
+//scop
+
+
+// 1- global scop 
+
+
+
+let global = 20
+
+function test1(){
+    console.log(global);
+}
+
+test1()
+
+function test2(){
+    let fns = 30
+    var gsp = 40
+    const bsp = 50
+
+}
+console.log(fns) //this is not working 
+console.log(gsp) //this is not working 
+console.log(bsp) //this is not working 
+
+
+test2()
+
