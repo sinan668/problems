@@ -26,5 +26,16 @@ let ans = def(num1,num2)
 console.log(ans);
 
 
-// scope
+// arrow function 
 
+
+
+const ghi = (a,b)=>{
+
+    return(a+b);
+
+}
+
+res = ghi(20,40)
+
+console.log(res)
